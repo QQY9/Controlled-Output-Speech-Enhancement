@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Controlled-Output-Speech-Enhancement
-=======
+==
 A Time-Domain Speech Enhancement Model with Controllable Output Based on Conditional Network
 =
 The model features diverse output characteristics, allowing control over the network output by adjusting parameter values to accommodate different listeners' needs and preferences.
