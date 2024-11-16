@@ -5,7 +5,7 @@ The model features diverse output characteristics, allowing control over the net
 # Installation
 First, install Python 3.7 (recommended with Anaconda).
 # Development
-git clone （https://github.com/facebookresearch/denoiser） \
+git clone https://github.com/QQQQQQQQY/Controlled-Output-Speech-Enhancement.git\
 cd denoiser-main1condnet201\
 pip install -r requirements_cuda.txt 
 # Train and evaluate
