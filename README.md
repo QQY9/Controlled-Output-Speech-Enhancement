@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Controlled-Output-Speech-Enhancement
-=======
 A Time-Domain Speech Enhancement Model with Controllable Output Based on Conditional Network
 =
 The model features diverse output characteristics, allowing control over the network output by adjusting parameter values to accommodate different listeners' needs and preferences.
@@ -26,4 +23,3 @@ For example, `laminput=0.1`; `samples_dir: out1`.\
 python -m model.evaluate --model_path=<path to the model> --data_dir=<path to folder containing noisy.json and clean.json>
 ```
 Note that the path given to --model_path should be obtained from one of the best.th file, not checkpoint.th.
->>>>>>> 9fc3f59 (Initial commit)
