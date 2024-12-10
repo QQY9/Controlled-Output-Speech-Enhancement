@@ -12,7 +12,7 @@ pip install -r requirements_cuda.txt
 ## Data
 Run `sh make_data.sh` to generate json files. 
 ## Train
-Training is simply done by launching the `train.py` script: This scripts read all the configurations from the conf\config.yaml file.
+Training is simply done by launching the `train.py` script: This scripts read all the configurations from the 'conf\config.yaml' file.
 ## Logs
 Logs are stored by default in the `outputs` folder. In the experiment folder you will find the `best.th` serialized model, the training checkpoint `checkpoint.th`, and well as the log with the metrics `trainer.log`. All metrics are also extracted to the `history.json` file for easier parsing. 
 ## Evaluate
