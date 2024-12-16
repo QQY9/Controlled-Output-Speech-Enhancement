@@ -17,7 +17,7 @@ Training is simply done by launching the `train.py` script: This scripts read al
 Logs are stored by default in the `outputs` folder. In the experiment folder you will find the `best.th` serialized model, the training checkpoint `checkpoint.th`, and well as the log with the metrics `trainer.log`. All metrics are also extracted to the `history.json` file for easier parsing. 
 ## Evaluate
 1.Set the `laminput` (quantile) values and `samples_dir` (the corresponding storage location for enhanced speech) in the `conf/config.yaml` file. Each `laminput` value represents a specific output characteristic.
-For example, `laminput=0.1`; `samples_dir: out1`. `Out1` represents the enhanced speech output when `laminput` is 0.1.\
+For example, `laminput=0.1`; `samples_dir: out1`. `Out1` represents the enhanced speech output when `laminput=0.1`.\
 2.Evaluating the models can be done by:
 ```
 python -m model.evaluate --model_path=<path to the model> --data_dir=<path to folder containing noisy.json and clean.json>
